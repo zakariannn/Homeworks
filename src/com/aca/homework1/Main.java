@@ -1,4 +1,2 @@
-package com.aca.homework1;
-
-public class Main {
+package com.aca.homework1;public class Main {
 }
