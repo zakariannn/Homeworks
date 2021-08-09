@@ -12,5 +12,15 @@ public enum Months {
     SEPTEMBER,
     OCTOBER,
     NOVEMBER,
-    DECEMBER
+    DECEMBER;
+
+public static Months getMonth(int num){
+        return Months.values()[num];
+}
+
+    public static void main(String[] args) {
+        System.out.println(Months.getMonth(4));
+        System.out.println(Months.getMonth(0));
+        System.out.println(Months.getMonth(3));
+    }
 }

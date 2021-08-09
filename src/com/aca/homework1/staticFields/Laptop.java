@@ -30,6 +30,8 @@ public class Laptop {
         return name;
     }
 
+
+
     public static void main(String[] args) {
         Laptop l1 = new Laptop();
         Laptop l2 = new Laptop("Mac");
