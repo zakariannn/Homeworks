@@ -1,6 +1,6 @@
 package com.aca.homework2.task1;
 
-public class Main {
+public class    Main {
     public static void main(String[] args) {
         User user1 = new User("Name", "LastName", "Username","email");
         User user2 = user1.copy();
