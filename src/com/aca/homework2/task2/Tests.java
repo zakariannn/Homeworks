@@ -1,5 +1,4 @@
 package com.aca.homework2.task2;
-
 public class Tests {
     public static void main(String[] args) {
         Point point1 = new ImmutablePoint(1, 2);

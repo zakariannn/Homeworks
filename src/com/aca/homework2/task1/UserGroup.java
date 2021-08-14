@@ -34,5 +34,10 @@ public class UserGroup implements Cloneable{
        return clonned;
     }
 
-
+    @Override
+    public String toString() {
+        return "UserGroup{" +
+                "userArr=" + Arrays.toString(userArr) +
+                '}';
+    }
 }
