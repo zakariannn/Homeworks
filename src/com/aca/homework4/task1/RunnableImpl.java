@@ -2,7 +2,7 @@ package com.aca.homework4.task1;
 
 import java.util.UUID;
 
-public class RunnableImpl implements Runnable{
+public class RunnableImpl implements Runnable {
 
     @Override
     public void run() {
